@@ -7,7 +7,7 @@ docker build -t server .
 ```
 docker run  -p 4000:4000 node-server
 ```
-* Alternatively, run your container with `-v` flag
+* Alternatively, run your container with `-v` flag so you don't have to rebuild image to apply code changes. Very convenient when developing.
 ```
 docker run  -p 4000:4000 -v /Path/to/your/local/file:/app node-server
 ```
