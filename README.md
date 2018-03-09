@@ -11,6 +11,10 @@ docker run  -p 4000:4000 node-server
 ```
 docker run  -p 4000:4000 -v /Path/to/your/local/file:/app node-server
 ```
+* In your local machine, open your web browser and visit `localhost:4000`. To see response.
+```
+Hello world 3!
+```
 * Stop a docker container with id
 ```
 docker stop 723323cef054
